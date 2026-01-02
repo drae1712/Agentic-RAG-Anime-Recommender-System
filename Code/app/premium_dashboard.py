@@ -500,7 +500,7 @@ with tab1:
                         st.session_state.search_history.insert(0, {
                             "query": query,
                             "response": response,
-                            "timestamp": datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+                            "timestamp": get_ist_time()
                         })
                         
                         status.update(label="✅ Analysis Complete!", state="complete", expanded=False)
