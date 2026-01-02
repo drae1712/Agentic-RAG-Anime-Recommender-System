@@ -19,21 +19,31 @@ LOG_FILE = os.path.join(LOGS_DIR, f"log_{current_ist_time.strftime('%Y-%m-%d')}.
 
 # Setup logging with custom IST converter
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
+# File handler
 file_handler = logging.FileHandler(LOG_FILE)
 file_handler.setFormatter(formatter)
+file_handler.setLevel(logging.INFO)
+
+# Console handler for real-time visibility
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(formatter)
+console_handler.setLevel(logging.INFO)
 
 # Override the converter for the formatter to use IST
 logging.Formatter.converter = ist_time_converter
 
+# Configure root logger to capture all logs
 logging.basicConfig(
     level=logging.INFO,
-    handlers=[file_handler]
+    handlers=[file_handler, console_handler]
 )
+
+# Set logging level for third-party libraries to capture HTTP requests
+logging.getLogger("httpx").setLevel(logging.INFO)
+logging.getLogger("httpcore").setLevel(logging.INFO)
 
 def get_logger(name):
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
-    # Ensure handlers are set if not already
-    if not logger.handlers:
-        logger.addHandler(file_handler)
     return logger
