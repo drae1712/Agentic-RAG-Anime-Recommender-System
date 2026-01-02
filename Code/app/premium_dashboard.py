@@ -14,19 +14,23 @@ import base64
 from dotenv import load_dotenv
 
 # -----------------------------------------------------------------------------
-# Path Setup for Streamlit Cloud
+# Path Setup for Streamlit Cloud (High Resilience)
 # -----------------------------------------------------------------------------
-# Get the absolute path of the directory containing this file (Code/app)
-current_dir = os.path.dirname(os.path.abspath(__file__))
-# Get the 'Code' directory path
-code_dir = os.path.dirname(current_dir)
-# Get the Project Root directory path
-root_dir = os.path.dirname(code_dir)
+# Get absolute path of this file
+ABS_PATH = os.path.abspath(__file__)
+# Go up to Code/app -> Code -> Root
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(ABS_PATH)))
+CODE_PATH = os.path.join(PROJECT_ROOT, "Code")
 
-# Add directories to sys.path for reliable module discovery
-for path in [code_dir, root_dir]:
-    if path not in sys.path:
-        sys.path.insert(0, path)
+# Add both to sys.path to resolve 'pipeline', 'src', etc.
+if CODE_PATH not in sys.path:
+    sys.path.insert(0, CODE_PATH)
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+# Verify paths in logs (visible in Streamlit 'Manage app' console)
+# print(f"[DEBUG] PROJECT_ROOT: {PROJECT_ROOT}")
+# print(f"[DEBUG] CODE_PATH: {CODE_PATH}")
 
 from pipeline.pipeline import AnimeRecommendationPipeline
 from langchain_huggingface import HuggingFaceEmbeddings

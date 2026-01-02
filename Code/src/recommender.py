@@ -4,10 +4,11 @@ except ImportError:
     try:
         from langchain_community.chains import RetrievalQA
     except ImportError:
-        try:
-            from langchain.chains.retrieval_qa.base import RetrievalQA
-        except ImportError:
-            raise ImportError("Could not find RetrievalQA in langchain or langchain_community. Please check your dependencies.")
+        raise ImportError(
+            "CRITICAL: Could not find 'RetrievalQA'. This usually means 'langchain' or "
+            "'langchain-community' packages are not correctly installed. "
+            "Please ensure both are in your requirements.txt."
+        )
 from langchain_groq import ChatGroq
 from src.prompt_template import get_anime_prompt
 
