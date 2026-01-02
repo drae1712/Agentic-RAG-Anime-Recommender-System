@@ -62,23 +62,9 @@ The **Agentic RAG Anime Recommender** is an advanced AI platform that implements
 ## 🏗️ System Architecture
 
 ### 📊 Tactical Data Flow
-```mermaid
-graph LR
-    subgraph Data Layer
-    CSV[(Anime Metadata)] --> EMD[HuggingFace Embeddings]
-    EMD --> VDB[(ChromaDB)]
-    end
 
-    subgraph Logic Layer
-    User([User Query]) --> VDB
-    VDB -- Top-K Matches --> RE[Groq Reasoning Engine]
-    RE -- Agentic Insight --> UI
-    end
+<img width="1617" height="430" alt="image" src="https://github.com/user-attachments/assets/4494de12-7c0d-40b7-b31e-1c009cf7c38a" />
 
-    subgraph Presentation Layer
-    UI[[Streamlit Premium UI]]
-    end
-```
 
 ### 🖼️ Architecture & Workflow Visuals
 
