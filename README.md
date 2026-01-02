@@ -43,10 +43,10 @@ The **Agentic RAG Anime Recommender** is an advanced AI platform that implements
 
 | Category | Keywords & Skills |
 | :--- | :--- |
-| **🤖 AI/ML** | ![LLM](https://img.shields.io/badge/LLM-blue?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-green?style=flat-square) ![Agentic_AI](https://img.shields.io/badge/Agentic_AI-orange?style=flat-square) ![Semantic_Search](https://img.shields.io/badge/Semantic_Search-purple?style=flat-square) ![Vector_DB](https://img.shields.io/badge/Vector_Database-red?style=flat-square) |
-| **🛠️ Tech Stack** | ![Groq](https://img.shields.io/badge/Groq-black?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-white?style=flat-square&logo=chainlink) ![ChromaDB](https://img.shields.io/badge/ChromaDB-Teal?style=flat-square) ![HuggingFace](https://img.shields.io/badge/HuggingFace-yellow?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
-| **☁️ LLMOps / AIOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&lineColor=white) ![Minikube](https://img.shields.io/badge/Minikube-326CE5?style=flat-square) ![GKE](https://img.shields.io/badge/GKE-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-8A2BE2?style=flat-square) ![Cloud--Native](https://img.shields.io/badge/Cloud_Native-00A8E1?style=flat-square) |
-| **🎯 Domain** | ![Anime_Recs](https://img.shields.io/badge/Anime_Recommendation-pink?style=flat-square) ![Personalized_Discovery](https://img.shields.io/badge/Personalized_Discovery-blue?style=flat-square) ![Content--Based_Filtering](https://img.shields.io/badge/Content--Based_Filtering-lightgrey?style=flat-square) |
+| **🤖 AI/ML** | **LLM (Llama 3.1)**, **RAG**, **Agentic AI**, **Semantic Search**, **Vector Embeddings (MiniLM)**, **Contextual Retrieval** |
+| **🛠️ Tech Stack** | **Groq LPU Acceleration**, **LangChain**, **ChromaDB (HNSW Index)**, **HuggingFace Transformers**, **Python**, **Streamlit Premium UI** |
+| **☁️ LLMOps / AIOps** | **Docker Containerization**, **Kubernetes (K8s)**, **GKE**, **CI/CD Pipelines (GitHub Actions)**, **Grafana Observability** |
+| **🎯 Domain** | **Recommender Systems**, **Content-Based Filtering**, **Cold Start Mitigation**, **Persona-Based Discovery** |
 
 ---
 
@@ -111,14 +111,43 @@ graph LR
 
 ---
 
-## 📱 Interactive UI Showcase
+## 📱 Interactive UI Showcase & Tab Guide
 
-### 🎭 Visual Navigation
-- **🎮 Live Discovery Engine**: Search for anime by "vibe" or context. Use 16 categorized preset buttons.
-- **📖 Project Knowledge Base**: Read deep-dives into the problem/solution framework.
-- **🔧 Tech Analytics**: Monitor system pulse, latency, and hardware acceleration (Groq).
-- **🏗️ Architecture Blueprints**: View HLD, LLD, and Phase-wise maps.
-- **📋 LLMOps Operations Monitor**: Filter and search live system logs for full transparency.
+The application features a premium, multi-tab interface designed for both casual discovery and technical deep-dives.
+
+### � Tab 1: Demo Project (Core Experience)
+*   **Purpose**: The central interaction point for users to get recommendations.
+*   **Features**:
+    *   **⚡ Quick Try Grid**: 16 categorized buttons (e.g., *Cyberpunk*, *Dark Fantasy*) for one-click exploration.
+    *   **🔍 Semantic Search Bar**: A deep-learning powered input where users can describe their "ideal vibe" in natural language.
+    *   **💾 Query History**: Persistent track of previous searches with the ability to copy or download results as `.txt` files.
+    *   **🧠 AI Reasoning Engine**: Not just a list, but a detailed analysis of *why* each anime was recommended.
+
+### 📖 Tab 2: About Project (The Vision)
+*   **Purpose**: Outlines the problem statement and the architectural "Why".
+*   **Features**:
+    *   **💡 Problem vs. Solution**: A clear breakdown of the challenges in traditional recommendation systems and how Agentic RAG solves them.
+    *   **🎯 Project Goals**: Highlighting scalability, sub-second latency, and semantic accuracy.
+
+### 🔧 Tab 3: Tech Stack (Technical Pedigree)
+*   **Purpose**: A live monitor and description of the underlying technology.
+*   **Features**:
+    *   **📡 Live Pulse**: Real-time metrics for LLM latency (Groq) and Vector DB status.
+    *   **🛠️ Component Breakdown**: Detailed logic behind choosing **ChromaDB**, **LangChain**, and **HuggingFace**.
+    *   **📊 Tech Comparison**: A tabular comparison of this stack vs. traditional alternatives.
+
+### 🏗️ Tab 4: Architecture (Systems Design)
+*   **Purpose**: For engineers to understand the data flow and orchestration.
+*   **Features**:
+    *   **📐 HLD/LLD Diagrams**: Visual maps of the multi-phase pipeline (Ingestion → Retrieval → Reasoning).
+    *   **🔄 Workflow Detail**: Step-by-step logic of how a query is transformed and reasoned upon.
+
+### 📋 Tab 5: System Logs (Observability)
+*   **Purpose**: Full transparency into the application's backend health.
+*   **Features**:
+    *   **📜 Live Event Stream**: Real-time logging of API calls, database queries, and error handling.
+    *   **🎛️ Filter & Search**: Ability to filter logs by `INFO`, `SUCCESS`, `WARNING`, or `ERROR`.
+    *   **📊 Log Metrics**: Statistical breakdown of system success rates and event counts.
 
 ---
 
