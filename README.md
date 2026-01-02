@@ -125,6 +125,47 @@ Integrated with **GitHub Actions** for automated:
 
 ---
 
+## 🛠️ Production Deployment (GCP + K8s)
+
+For professional infrastructure, we utilize **Google Cloud Platform (GCP)** with **Ubuntu 24.04 LTS** and **Minikube** for local Kubernetes orchestration.
+
+### 1. VM Provisioning (GCP)
+- **Machine Type**: `E2-Standard-4` (4 vCPU, 16 GB RAM)
+- **Boot Disk**: 256 GB SSD (Ubuntu 24.04 LTS)
+- **Networking**: Allow Port `8501` (Streamlit Default)
+
+### 2. Kubernetes Orchestration
+```bash
+# Point Docker to Minikube context
+eval $(minikube docker-env)
+
+# Build & Deploy
+docker build -t llmops-app:latest .
+kubectl apply -f llmops-k8s.yaml
+
+# Expose Service
+kubectl port-forward svc/llmops-service 8501:80 --address 0.0.0.0
+```
+
+---
+
+## 📊 Enterprise Monitoring (Grafana)
+
+We implement **Full-Stack Observability** using **Grafana Cloud** via Helm charts to monitor cluster health and application metrics.
+
+### 🔍 Monitoring Steps:
+1. **Namespace isolation**: `kubectl create ns monitoring`
+2. **HELM Integration**:
+   ```bash
+   helm repo add grafana https://grafana.github.io/helm-charts
+   helm repo update
+   helm upgrade --install grafana-k8s-monitoring grafana/k8s-monitoring \
+     --namespace "monitoring" --values values.yaml
+   ```
+3. **Dashboarding**: Real-time visualization of Pod CPU, Memory spikes, and LLM API latency.
+
+---
+
 ## 📊 Performance Benchmarks
 
 | Metric | Target | Real-World Performance (Groq) |
