@@ -39,8 +39,8 @@ The **Agentic RAG Anime Recommender** is an advanced AI platform that implements
 
 ## 🌐🎬 Live Demo
 🚀 **Try it now:**
-- **Streamlit Profile** - https://share.streamlit.io/user/ratnesh-181998
-- **Project Demo** - https://agentic-rag-anime-recommender-system-dhsvh7zgrejeed2ghprr3d.streamlit.app/
+- **Streamlit Profile** - [Link](https://share.streamlit.io/user/ratnesh-181998)
+- **Project Demo** - [Link](https://agentic-rag-anime-recommender-system-4zb9ciceyhdlqls2csksqd.streamlit.app/)
 
 ---
 
@@ -274,7 +274,7 @@ streamlit run Code/app/premium_dashboard.py
 
 - 💼 **LinkedIn**: [Connect with me](https://www.linkedin.com/in/ratneshkumar1998/)
 - 🐙 **GitHub**: [Review my Repos](https://github.com/Ratnesh-181998)
-- 🌐 **Live Project**: [Explore the App](https://agentic-rag-anime-recommender-system-dhsvh7zgrejeed2ghprr3d.streamlit.app/)
+- 🌐 **Live Project**: [Explore the App](https://agentic-rag-anime-recommender-system-4zb9ciceyhdlqls2csksqd.streamlit.app/)
 
 ---
 
