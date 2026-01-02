@@ -84,15 +84,20 @@ graph LR
 
 <details>
 <summary><b>📐 View High-Level & Low-Level Design (HLD/LLD)</b></summary>
+    
+#### HLD & LLD
 
-![HLD & LLD](<img width="549" height="832" alt="image" src="https://github.com/user-attachments/assets/dd8a1a62-75cc-46ed-9321-65db62030085" />)
+<img width="549" height="832" alt="image" src="https://github.com/user-attachments/assets/dd8a1a62-75cc-46ed-9321-65db62030085" />
 
 </details>
 
 <details>
 <summary><b>🔄 View Agentic Workflow Detail</b></summary>
+    
+#### Workflow
 
-![Workflow](<img width="734" height="176" alt="image" src="https://github.com/user-attachments/assets/2d570a26-2412-4e1d-8a15-14dab2d0faa6" />)
+<img width="734" height="176" alt="image" src="https://github.com/user-attachments/assets/2d570a26-2412-4e1d-8a15-14dab2d0faa6" />
+
 </details>
 
 ### 🔍 Process Deep Dive
